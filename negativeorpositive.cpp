@@ -9,11 +9,11 @@ int main()
     cin >> number;
 
     if( number > 0)
-       cout << number << "is a Positive Number" << endl;
+       cout << number << " is a Positive Number" << endl;
     else if (number < 0)
-       cout << number << "is a negative Number"  << endl;
+       cout << number << " is a negative Number"  << endl;
     else
-       cout << number << "is Zero" << endl;
+       cout << number << " is Zero" << endl;
 
     return 0;
 
