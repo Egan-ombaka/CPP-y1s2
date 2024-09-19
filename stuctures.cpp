@@ -1,14 +1,9 @@
-
-// a program to determine if a number is positive, negative or zero
- 
-
- #include <iostream>
- using namespace std; // cout, cin, endl
+#include <iostream>
+ using namespace std;
 
  int main() {
-    int num;//declaration initialization.
+    int num;
 
-// (prompting the user)
     cout<< "Enter number "<<endl;
     cin>>num;
 
