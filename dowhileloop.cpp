@@ -7,8 +7,11 @@ This is a simple C++ programm to print and calculate the sum of all the numbers 
 using namespace std;
 
 int main(){
+
+    //initialization and declaration of variables
     int number=1, sum = 0;
 
+    //do...while loop
     do
     {
         cout << number << endl;
@@ -17,6 +20,7 @@ int main(){
 
     } while (number <= 100);
     
+    //printing out the results
     cout << " The sum of all numbers btn 1 and 100 is: " << sum << endl;
 
     return 0;
