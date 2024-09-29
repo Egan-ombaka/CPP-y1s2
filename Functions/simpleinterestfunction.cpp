@@ -9,6 +9,8 @@ using namespace std;
 int simpleinterest(int p, int r, int t);
 
 int main(){
+    //initialization and declaration of variables
+
     int ans_si, p, r, t;
 
     cout<<"Enter the principle, rate, time";
