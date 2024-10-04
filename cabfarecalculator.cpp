@@ -73,6 +73,8 @@ int fare_calculation(double distance, double passengers, bool airportCharges){
         total_fare += airport_surcharge;
     }
     
+    //printing out the answer.
     total_fare = distance_fare + passenger_charges;
+    
     return total_fare;
 }
