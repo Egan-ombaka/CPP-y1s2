@@ -63,7 +63,7 @@ int fare_calculation(double distance, double passengers, bool airportCharges){
     //determining the fare based on the number of passengers(using if statement)
     if(passengers > 1){
         passenger_charges = additional_passenger;
-        if(passengers > 2){
+        if(passengers > 2){//for every additional passitional passenger from 2 passengers.
             passenger_charges += (passengers - 2) * additonal_passenger2;
         }
     }
@@ -72,7 +72,7 @@ int fare_calculation(double distance, double passengers, bool airportCharges){
     if(airportCharges){
         total_fare += airport_surcharge;
     }
-
+    
     total_fare = distance_fare + passenger_charges;
     return total_fare;
 }
