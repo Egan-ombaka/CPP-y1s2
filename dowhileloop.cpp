@@ -10,6 +10,7 @@ using namespace std;
 int main(){
 
     //initialization and declaration of variables
+    
     int number=1, sum = 0;
 
     //do...while loop
