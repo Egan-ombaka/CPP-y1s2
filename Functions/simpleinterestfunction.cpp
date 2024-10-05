@@ -8,6 +8,7 @@ A C++ function that returns the simple interest
 using namespace std;
 int simpleinterest(int p, int r, int t);
 
+
 int main(){
     //initialization and declaration of variables
 
