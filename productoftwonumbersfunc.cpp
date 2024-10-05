@@ -12,6 +12,7 @@ int main(){
     int ans_si, p, r, t;
 
     cout<<"Enter the principle, rate, time";
+    
     cin>>p>>r>>t;
 
     ans_si = simpleinterest(p,r,t);
