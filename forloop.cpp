@@ -6,7 +6,6 @@ This a c++ programm that prints all numbers from 1 to 100  and finds their sum u
 */
 
 #include<iostream>
-
 using namespace std;
 
 int main()
