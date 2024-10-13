@@ -6,10 +6,10 @@ This is a c++ function that returns a sum of two numbers
 
 #include<iostream>
 using namespace std;
-double sum_calculation(double a, double b);
+double sum_calculation(int a, int b);
 
 //function to calculate the sum of the two numbers
-double sum_calculation(double a, double b){
+double sum_calculation(int a, int b){
     double sum; //declaring the two numbers a the variable to be returned
 
     //calcuating the sum
@@ -19,7 +19,7 @@ double sum_calculation(double a, double b){
 }
 
 int main(){
-    double a,b,ans_sum;//declaring the variables
+    int a,b,ans_sum;//declaring the variables
 
     //ask the user to the variables
     cout<<"Enter a"<< endl;
@@ -31,6 +31,6 @@ int main(){
     ans_sum = sum_calculation( a,b);// calling the sum_calculation function
 
     //printing out the answer...
-    cout<<"the sum of a and b is : "<< endl;
+    cout<<"the sum of a and b is : "<<ans_sum << endl;
 
 }
