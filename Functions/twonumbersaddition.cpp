@@ -13,6 +13,7 @@ double sum_calculation(int a, int b){
     double sum; //declaring the two numbers a the variable to be returned
 
     //calcuating the sum
+    
     sum = a + b;
 
     return sum;//returning the answer
