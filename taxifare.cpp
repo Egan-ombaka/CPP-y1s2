@@ -5,7 +5,11 @@ double fareCalculation(int passengers, double distance, bool toFro);
 
 double fareCalculation(int passengers, double distance, bool toFro){
     //iniatilization of constant variables should be used within this function
-    const double fareRate = 1.80, minimumFare = 5.00, pass1Charges = 1.00, pass2Charges = 0.50, airportSurcharge = 2.00;
+    const double fareRate = 1.80; 
+    const double minimumFare = 5.00; 
+    const double pass1Charges = 1.00; 
+    const double pass2Charges= 0.50; 
+    const double airportSurcharge = 2.00;
 
     //initialization of total fare , passengerfare and distancefare
     double allCharges = 0; //to be returned by this function

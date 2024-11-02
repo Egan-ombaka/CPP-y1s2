@@ -7,7 +7,8 @@ using namespace std;
 
 //Base class
 class Shape{
-    protected:v
+    protected:
+    string color;
 
     public:
     void setColor(string c) {
