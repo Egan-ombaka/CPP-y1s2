@@ -5,7 +5,7 @@ Date : 1/11/2024
 #include<iostream>
 using namespace std;
 
-class Car{//defining a class named car
+class Car{ //defining a class named car
     private:
     string Porshe;
     string Taycan;
